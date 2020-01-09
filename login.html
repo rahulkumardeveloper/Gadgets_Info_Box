@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gadgets Info Box</title>
+    <link rel="stylesheet" href="styles.css" >
+     <link rel=icon type="image/jpg" href="images/iconimage.jpg">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="head">
+	<header>
+		<h1>Gadgets  Info Box</h1>
+	</header>
+</div>
+
+<div class="navbar">
+  <a  href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="index.html"><i class="fa fa-newspaper-o"></i> News</a>
+  <a href="gallery.html"><i class="fa fa-file-image-o"></i> Gallery</a>
+  <a href="about.html"><i class="fa fa-book"></i> About Us</a>
+
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a  class="active" href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+
+</div>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="images/loginlogo.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#" id="password">Password</a></span>
+  </div>
+</form>
+
+<div id="foot">
+	<footer>
+		<b><p>Copyright &copy;2019,Gadgets Website </p>
+		<p>All Right Reserved</p>
+		<p align="center">Developed and Maintainted by :<a href="https://github.com/rahulkumardeveloper"> Rahul Kumar</a></p>
+	</b>
+	</footer>
+</div>
+
+ </body>
+</html>
+

@@ -1,0 +1,402 @@
+/* Add Your Styles Here */
+body{
+	background-color: whitesmoke;
+	margin: 0px;
+}
+/* Style the header */
+header {
+    		padding: 10px;
+            background: url(images/technology.jpg);
+            margin: 0px;
+    		text-align: center;
+    		color: white;
+
+    	}
+ a{
+ 	color: white;
+ }
+ 
+ /* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+   position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+/* Style the  moving navigation bar */
+#movenav{
+            background-color:#2A293E;
+            font-size: 20px;
+            font-family: vardana;
+            padding: 8px; 
+            color: white;
+        }
+/* Style the between navigation bar when click news button then open */
+
+.newsection{
+            background-color:#2A293E;
+            font-size: 20px;
+            font-family: vardana;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+.center {
+   border: 4px solid blue; 
+   margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+.center:hover{
+     cursor: pointer;
+    box-shadow: 0 0 30px red;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+/* Style for three news bos of mobile and laptop,tablets */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: " " ;
+  display: table;
+  clear: both;
+}
+/* Style of some extra style of column */
+.column{
+border:2px solid blue;
+padding:10px;
+border-radius: 10px;
+
+margin:20px;
+margin-left:50px;
+}
+/* column hover effect */
+.column:hover{
+cursor: pointer;
+    box-shadow: 0 0 30px blue;
+  }
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column {
+  align:center;
+  
+    width: 50%;
+  }
+}
+
+
+
+/* Style of  gallery section */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px; 
+  height: 350px;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1{
+border:2px solid blue;
+padding:10px;
+border-radius: 10px;
+margin:20px;
+margin-left:60px;
+}
+
+.column1:hover{
+cursor: pointer;
+    box-shadow: 0 0 30px grey;
+  }
+  .column1:hover img{
+      transform: scale(1 ,1);
+      border-radius: 15px;
+      border: 2px solid grey;
+  }
+  .column1 img{
+    max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column1 {
+  align:center;
+  
+    width: 80%;
+  }
+}
+
+b{
+  font-family: vardana;
+  font-size: 30px;
+  margin-left: 20px;
+}
+p{
+  font-family: vardana;
+  font-size: 20px;
+margin-left: 40px;
+margin-right: 40px;
+}
+/* this is propertise of login.html page */
+form {
+  border: 3px solid #f1f1f1;
+  
+  margin: 50px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+#password{
+    color: black;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+ footer{
+        background: url(images/technology.jpg);
+    		text-align: center;
+    		color: white;
+ }
+ /*contact form page */
+ /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 50px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*About us Meet the Team section ok*/
+
+/* Three columns side by side */
+.column2 {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column2 {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container2 {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container2::after, .row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title2 {
+  color: grey;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #555;
+}
+.column2:hover{
+
+}
